@@ -1,0 +1,16 @@
+
+@import 'react-big-calendar/lib/sass/styles';
+@import 'react-big-calendar/lib/addons/dragAndDrop/styles';
+
+.table-component{
+    @media (min-width: 1024px){
+        .search-form{
+            width: 400px;
+
+            .search-input{
+                width: calc(100% - 15px);
+            }
+        }
+
+    }
+}

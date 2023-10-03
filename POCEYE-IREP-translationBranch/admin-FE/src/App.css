@@ -1,0 +1,141 @@
+
+
+/* for the select dropdown when used in filters with limited height */
+.select-dropdown-sm {
+	position: relative;
+}
+
+.select-dropdown-sm div[class$="menu"] * {
+	overflow: auto;
+	max-height: 100px;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.select-dropdown-sm div[class$="menu"] *::-webkit-scrollbar {
+	display: none;
+}
+
+/* hide scrollbar */
+.hide-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* small scrollbar */
+.small-scrollbar::-webkit-scrollbar {
+	width: 4px;
+}
+
+.small-scrollbar::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+.small-scrollbar::-webkit-scrollbar-thumb {
+	background-color: #6576ff;
+	outline: 1px solid #6576ff;
+	border-radius: 10px;
+}
+
+.w-unset {
+	width: unset !important;
+}
+
+.mapview svg,
+.leaflet-container svg {
+	height: auto;
+	width: auto;
+}
+
+.jexcel_container {
+	width: 100% !important;
+
+	overflow-x: auto !important;
+}
+
+.jexcel_content {
+	width: auto !important;
+	padding: 0 !important;
+}
+
+.mb-unset {
+	margin-bottom: unset;
+}
+.dashboardView {
+	overflow: auto;
+	overflow-y: auto;
+	height: 420px;
+}
+.timelineChart {
+	height: auto;
+}
+
+.stickyThead {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background: #fafafa;
+}
+
+.filterSpacing {
+	z-index: 6;
+}
+
+/* transparent scrollbar */
+.transparent-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background-color: transparent;
+}
+
+.transparent-scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin:7px 0;
+    background-color: #ebe9e9;
+}
+
+.transparent-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #d8d3d3;
+}
+
+/* disappearing scrollbar */
+.disappearing-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+    background-color: transparent;
+	display: none;
+}
+
+.disappearing-scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin:7px 0;
+    background-color: #ebe9e9;
+}
+
+.disappearing-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #d8d3d3;
+}
+
+.disappearing-scrollbar:hover::-webkit-scrollbar {
+    display: block;
+}
+
+
+.filterPosition {
+	position: absolute;
+	height: 315px;
+}
+
+
+.suggestion{
+  height: 100px;
+  overflow: auto;
+}
