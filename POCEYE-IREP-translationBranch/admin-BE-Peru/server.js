@@ -32,7 +32,6 @@ app.get("/", (req, res) => {
 app.use(Router);
 
 // listen on port
-app.listen(4000, () => console.log('This Peru Server is running'));
-// app.listen(4000, () => console.log('This Peru Server is running at http://localhost:4000'));
-
-app.timeout = 10;
+const port = process.env.PORT || 4000;
+app.listen(port, () => console.log(`This Peru Server is running ${port}`));
+// app.listen(4000, () => console.log('This Peru Server is running at http://localhost:4000'));`

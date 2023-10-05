@@ -15,7 +15,7 @@ const  db = new Sequelize(
       // instanceName: "SQLEXPRESS",
       instanceName: "poceyesqlserver.database.windows.net",
       trustServerCertificate: true,
-      connectTimeout: 10000,
+      connectTimeout: 15000,
     },
     logging: (...msg) => console.log(msg),
     pool: {

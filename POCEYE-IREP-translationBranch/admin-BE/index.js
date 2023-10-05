@@ -31,9 +31,9 @@ app.get("/", (req, res) => {
 // use router
 app.use(Router);
 
+const port = process.env.PORT || 5000;
 // listen on port
-app.listen(5000, () =>
-  console.log("This Server running")
-  // console.log("This Server running at http://localhost:5000")
+app.listen(port, () =>
+  console.log(`This Server is running on ${port}`)
 );
 

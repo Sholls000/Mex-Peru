@@ -40,8 +40,8 @@ import bcrypt from "bcrypt";
 
 // Check if The Database has a table User
 // If not the create a table User
-(async () => {
-  await User.sync();
-})();
+// (async () => {
+//   await User.sync();
+// })();
 
 export default User;

@@ -28,13 +28,13 @@ const adminUsers = db.define(
   }
 );
 
-(async () => {
-  await adminUsers.sync();
+// (async () => {
+//   await adminUsers.sync();
   
 
-  // await adminUsers.create({ email: "tobiMexico01@gmail.com", password: bcrypt.hashSync("tobiMex", 10),
-  // });
+//   // await adminUsers.create({ email: "tobiMexico01@gmail.com", password: bcrypt.hashSync("tobiMex", 10),
+//   // });
 
-})();
+// })();
 
 export default adminUsers;

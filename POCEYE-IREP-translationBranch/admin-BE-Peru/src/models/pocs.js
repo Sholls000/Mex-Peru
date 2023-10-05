@@ -84,8 +84,8 @@ const Poc = db.define(
 
 // Check if The Database has a table Poc
 // If the table is not available create a table named Poc
-(async () => {
-  await Poc.sync();
-})();
+// (async () => {
+//   await Poc.sync();
+// })();
 
 export default Poc;
