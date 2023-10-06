@@ -10,7 +10,7 @@ export const dbConfig = {
       "password": process.env.DB_PASSWORD,
       "database": process.env.DB_DATABASE,
       "host": process.env.DB_HOST,
-    //   "dbPort": process.env.DB_PORT,y
+      "server": process.env.DB_HOST,
       "dialect": "mssql",
    
   };
